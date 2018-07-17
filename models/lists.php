@@ -13,7 +13,7 @@ class Lists
 		$result = $db->prepare($sql);
 		$result->setFetchMode(PDO::FETCH_ASSOC);
 		$result->execute();
-		return $result->fetch();
+		
 
 	}
 }
